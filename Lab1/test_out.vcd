@@ -1,0 +1,67 @@
+$date
+	Tue May 11 17:09:25 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module test_mx2 $end
+$scope module mx_top $end
+$var wire 1 ! d0 $end
+$var wire 1 " d1 $end
+$var wire 1 # s $end
+$var wire 1 $ y $end
+$var wire 1 % w1 $end
+$var wire 1 & w0 $end
+$var wire 1 ' sb $end
+$scope module iv0 $end
+$var wire 1 # a $end
+$var wire 1 ' y $end
+$upscope $end
+$scope module nd20 $end
+$var wire 1 ! a $end
+$var wire 1 ' b $end
+$var wire 1 & y $end
+$upscope $end
+$scope module nd21 $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 % y $end
+$upscope $end
+$scope module nd22 $end
+$var wire 1 & a $end
+$var wire 1 % b $end
+$var wire 1 $ y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1'
+1&
+1%
+0$
+0#
+1"
+0!
+$end
+#100
+1$
+0%
+0'
+1#
+#200
+0$
+1%
+0"
+#300
+1!
+#400
+1$
+0&
+1'
+0#
+#500
