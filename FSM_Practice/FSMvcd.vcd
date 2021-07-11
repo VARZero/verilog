@@ -1,0 +1,152 @@
+$date
+	Mon Jul 12 01:05:57 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_cnt5 $end
+$scope module counterBin $end
+$var wire 1 ! clk $end
+$var wire 1 " inc $end
+$var wire 1 # rb $end
+$var reg 3 $ cnt [2:0] $end
+$var reg 3 % next_cnt [2:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_cnt5 $end
+$scope module counterOneHot $end
+$var wire 1 ! clk $end
+$var wire 1 " inc $end
+$var wire 1 # rb $end
+$var reg 5 & cnt [4:0] $end
+$var reg 5 ' next_cnt [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 '
+b1 &
+b1 %
+b0 $
+0#
+1"
+1!
+$end
+#5
+0!
+#10
+1!
+#15
+0!
+1#
+#20
+b10 %
+b100 '
+b1 $
+b10 &
+1!
+#25
+0!
+#30
+b1000 '
+b11 %
+b100 &
+b10 $
+1!
+#35
+0!
+#40
+b100 %
+b10000 '
+b11 $
+b1000 &
+1!
+#45
+0!
+#50
+b1 '
+b0 %
+b10000 &
+b100 $
+1!
+#55
+0!
+#60
+b1 %
+b10 '
+b0 $
+b1 &
+1!
+#65
+0!
+#70
+b100 '
+b10 %
+b10 &
+b1 $
+1!
+#75
+b0 %
+b1 '
+0!
+0"
+#80
+b100 %
+b10000 '
+b0 $
+b1 &
+1!
+#85
+0!
+#90
+b1000 '
+b11 %
+b10000 &
+b100 $
+1!
+#95
+0!
+#100
+b10 %
+b100 '
+b11 $
+b1000 &
+1!
+#105
+0!
+#110
+b10 '
+b1 %
+b100 &
+b10 $
+1!
+#115
+0!
+#120
+b0 %
+b1 '
+b1 $
+b10 &
+1!
+#125
+0!
+#130
+b10000 '
+b100 %
+b1 &
+b0 $
+1!
+#135
+0!
+#140
+b11 %
+b1000 '
+b100 $
+b10000 &
+1!
+#145
+0!
